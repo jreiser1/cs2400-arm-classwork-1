@@ -26,6 +26,7 @@ Follow the instructions for each of the following code samples in [Compliler Exp
 4. [arrays](https://godbolt.org/z/lcH006)
    1. Port this code to VisUAL.
    2. Observe/show that this code writes the local array in reverse order to the `static` global array.
+   r2 and r3 act as indexes for the dimensions of the array as it is iterated through, and r1 acts as a "temp" store location for the value of r3
    
 5. [2d array](https://godbolt.org/z/Kr-Sn8)
    1. Port this code to VisUAL.
